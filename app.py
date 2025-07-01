@@ -7,7 +7,7 @@ from productos import productos
 
 @app.route("/ping")
 def ping():
-    return jsonify({"message": "error"})
+    return jsonify({"message": "usuario"})
 
 
 @app.route("/productos")
